@@ -1,0 +1,15 @@
+Hi Stewart,
+
+Thank you for contacting us.
+
+We've seen some reports of this happening recently for people who are using Adsense on their sites. The Adsense code has changed recently, in which it adds height:auto !important to the iframe of the editor elementor-preview-iframe (the editor of Elementor is an iframe). 
+
+For now, using an ad blocker browser extension can usually enable you to get into the editor, and if you have the Adsense script within an HTML widget there, you can remove it once you're in the editor. Or you can simply keep using the Ad Blocker to allow you to edit as normal.
+
+In addition, it seems as though the following situation is happening: 
+
+If the ad units have fixed sizes, all is well, but if the ad units have automatic sizing, it breaks. So for now, you could try replacing the auto-sized ad units with ones that have fixed sizes. Our developers will be reaching out to Google's developers to see if they can come up with a permanent solution.
+
+If you aren't using Adsense on your site, please let us know.
+
+Kind Regards,

@@ -1,0 +1,41 @@
+# Translation of Plugins - Elementor Custom Skin - Development (trunk) in Hebrew
+# This file is distributed under the same license as the Plugins - Elementor Custom Skin - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-22 19:06:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: he_IL\n"
+"Project-Id-Version: Plugins - Elementor Custom Skin - Development (trunk)\n"
+
+#: skins/skin-custom.php:80
+msgid "View"
+msgstr "הצג"
+
+#: theme-builder/dynamic-tags/tags/post-summary.php:33
+msgid "Length"
+msgstr "רוחב"
+
+#: theme-builder/dynamic-tags/tags/post-summary.php:18
+msgid "Post Summary"
+msgstr "סיכום פוסט"
+
+#: theme-builder/init.php:60 theme-builder/conditions/loop.php:31
+#: theme-builder/documents/loop.php:32
+msgid "Loop"
+msgstr "לולאה"
+
+#: skins/skin-custom.php:37 skins/skin-custom.php:626
+msgid "Custom"
+msgstr "מותאם"
+
+#. Plugin Name of the plugin
+msgid "Ele Custom Skin"
+msgstr "סקין מותאם לאלמנטור"
+
+#. Description of the plugin
+msgid "Elementor Custom Skin for Posts and Archive Posts. You can create a skin as you want."
+msgstr "סקינים מותאמים עבור פוסטים וארכיוני פוסטים של אלמנטור. מאפשר לעצב כל עיצוב שרוצים."

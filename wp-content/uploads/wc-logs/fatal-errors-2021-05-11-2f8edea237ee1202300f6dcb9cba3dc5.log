@@ -1,0 +1,48 @@
+2021-05-11T15:43:40+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php:336
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php(300): Essential_Addons_Elementor\Classes\Bootstrap->generate_dependency(Array, 'edit', 'css')
+#1 C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php(286): Essential_Addons_Elementor\Classes\Bootstrap->generate_strings(Array, 'edit', 'css')
+#2 C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Enqueue.php(153): Essential_Addons_Elementor\Classes\Bootstrap->generate_script('9224d70ff', Array, 'edit', 'css')
+#3 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(292): Essential_Addons_Elementor\Classes\Bootstrap->enqueue_scripts('')
+#4 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\test\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#7 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#8 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\test\wp-includes\general-template.php(3009): do_action('wp_head')
+#11 C:\xampp\htdocs\test\wp-content\themes\hello-elementor\header.php(21): wp_head()
+#12 C:\xampp\htdocs\test\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\test\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#14 C:\xampp\htdocs\test\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#15 C:\xampp\htdocs\test\wp-content\themes\hello-elementor\index.php(15): get_header()
+#16 C:\xampp\htdocs\test\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\test\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\test\index.php(17): require('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php on line 336
+
+2021-05-11T15:43:41+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php:336
+Stack trace:
+#0 C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php(300): Essential_Addons_Elementor\Classes\Bootstrap->generate_dependency(Array, 'edit', 'css')
+#1 C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php(286): Essential_Addons_Elementor\Classes\Bootstrap->generate_strings(Array, 'edit', 'css')
+#2 C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Enqueue.php(153): Essential_Addons_Elementor\Classes\Bootstrap->generate_script('9224d70ff', Array, 'edit', 'css')
+#3 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(292): Essential_Addons_Elementor\Classes\Bootstrap->enqueue_scripts('')
+#4 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\test\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#7 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#8 C:\xampp\htdocs\test\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#9 C:\xampp\htdocs\test\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#10 C:\xampp\htdocs\test\wp-includes\general-template.php(3009): do_action('wp_head')
+#11 C:\xampp\htdocs\test\wp-content\themes\hello-elementor\header.php(21): wp_head()
+#12 C:\xampp\htdocs\test\wp-includes\template.php(730): require_once('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\test\wp-includes\template.php(676): load_template('C:\\xampp\\htdocs...', true, Array)
+#14 C:\xampp\htdocs\test\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#15 C:\xampp\htdocs\test\wp-content\themes\hello-elementor\index.php(15): get_header()
+#16 C:\xampp\htdocs\test\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#17 C:\xampp\htdocs\test\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#18 C:\xampp\htdocs\test\index.php(17): require('C:\\xampp\\htdocs...')
+#19 {main}
+  thrown in C:\xampp\htdocs\test\wp-content\plugins\essential-addons-for-elementor-lite\includes\Traits\Generator.php on line 336
+
